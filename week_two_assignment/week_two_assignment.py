@@ -52,7 +52,7 @@ class LinkedList:
         for i in range(1, n - 1):
             current = current.next
 
-      node_to_delete = current.next
+        node_to_delete = current.next
         current.next = node_to_delete.next
         self.size -= 1
     
